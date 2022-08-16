@@ -131,6 +131,7 @@ a {
 
 .headpage_background {
   background-color: white;
+  width:100%;
 }
 
 .text-container p:nth-child(1) {
