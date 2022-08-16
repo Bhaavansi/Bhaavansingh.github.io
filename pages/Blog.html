@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+  <body>
+    <nav class="header-nav-bar">
+      <a href="#" class="Headname">Bhaavan Bhullar</a>
+      <ul>
+        <li class="header-home">
+          <a href="../index.html">Home</a>
+        </li>
+        <li class="header-About">
+          <a href="../index.html#aboutme2">About</a>
+        </li>
+        <li class="header-projects">
+          <a href="../index.html#projects">Projects</a>
+        </li>
+        <li class="blog"><a href="#">Blog</a></li>
+        <li class="header-contact">
+          <a href="../index.html#languages">Technologies</a>
+        </li>
+        <li class="header-contact">
+          <a href="../index.html#contact">Contact</a>
+        </li>
+      </ul>
+      <div class="toggle"></div>
+    </nav>
+    <section class="wrapper">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+
+    <div class="header">
+      <h2>Bhaavan's Blog</h2>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>MY FIRST EVER BLOG POST</h2>
+          <h5>August 12, 2022</h5>
+          <div class="fakeimg" style="height: 200px">
+            This is my first ever blog post where I talk about my coding journey
+            and how I found a passion for frontend and full stack development
+            using various different technologies such as JS, React, Node.js,
+            Express.js, MongoDB, Python, and C#
+          </div>
+          <button>Read More..</button>
+        </div>
+        <div class="card">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height: 200px"></div>
+          <button>Read More..</button>
+        </div>
+        <div class="card">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height: 200px">Image</div>
+          <button>Read More..</button>
+        </div>
+      </div>
+    </div>
+    <footer class="lastsection">
+      <p>Bhaavan Singh Bhullar</p>
+      <p>Hoping to make a big comback over this next year and onwards</p>
+
+      <div class="social_icons">
+        <a
+          href="https://www.linkedin.com/in/bhaavan-bhullar-352b4620a/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Bhaavansi" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/bhaavan.si/?hl=en" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/bhaavan_bhullar" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/Bhaavan.si/" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+      <p class="copyright">Copyright &copy Bhaavan Singh Bhullar</p>
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/bhaavan-bhullar-352b4620a/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Bhaavansi" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/bhaavan.si/?hl=en" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/bhaavan_bhullar" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/Bhaavan.si/" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+    </footer>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".toggle").toggleClass("active");
+          $(".header-nav-bar").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
