@@ -334,7 +334,7 @@ svg {
 .personal-picture {
   height: 350px;
   width: 300px;
-  border-radius: 5px;
+  border-radius: 0px;
   margin: auto auto auto 40px;
 }
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
